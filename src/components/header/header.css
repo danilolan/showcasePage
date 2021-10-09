@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    align-items: center;
+    background: #000d;
+    border-bottom: solid 2px rgb(147,112,219);
+}
+
+.header .itemsContainer{
+    height: 100px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    float: right;
+}
+
+.header .itemsContainer a{
+    display: flex;
+    text-decoration: none;
+    height: 100%;
+    align-items: center;
+}
+
+.header .itemsContainer a:hover{
+    color: rgb(78, 78, 78);
+}
+
+.header .itemsContainer .shop{
+    background: rgb(147,112,219);
+    width: 200px;
+}
+

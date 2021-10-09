@@ -1,0 +1,11 @@
+.item{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.4em;
+    color: white;
+    padding: 0px 30px;
+}
+
+.item:hover{
+    color: rgb(199, 199, 199);
+}
