@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     background: #000d;
-    border-bottom: solid 2px rgb(147,112,219);
+    border-bottom: solid 2px rgb(105, 62, 192);
 }
 
 .header .itemsContainer{
@@ -19,14 +19,27 @@
     text-decoration: none;
     height: 100%;
     align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 .header .itemsContainer a:hover{
-    color: rgb(78, 78, 78);
+    color: rgb(150, 150, 150);
 }
 
 .header .itemsContainer .shop{
-    background: rgb(147,112,219);
+    font-weight: 900;
+    background: rgb(105, 62, 192);
     width: 200px;
+    height: 103px;
+}
+
+.header .itemsContainer .shop:hover{
+    color: white;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 

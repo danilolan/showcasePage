@@ -3,11 +3,11 @@ import './item.css'
 
 function Item(props) {
     var classes = 'item '
-    classes += props.shop ? 'shop' : ''
-    console.log(props.label, classes)
+    classes += props.shop ? 'shopItem' : ''
+    const iClass = props.shop ? 'fa fa-shopping-cart' : ''
     return ( 
         <div className={classes}>
-            {props.label}
+            <i class={iClass}></i> {props.label}
         </div>
      );
 }
