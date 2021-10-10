@@ -3,10 +3,12 @@
     align-items: center;
     background: #000d;
     border-bottom: solid 2px rgb(105, 62, 192);
+    position: fixed;
+    width: 100%;
 }
 
 .header .itemsContainer{
-    height: 100px;
+    height: 100%;
     width: max-content;
     display: flex;
     align-items: center;
@@ -31,7 +33,7 @@
     font-weight: 900;
     background: rgb(105, 62, 192);
     width: 200px;
-    height: 103px;
+    height: 83px;
 }
 
 .header .itemsContainer .shop:hover{

@@ -1,0 +1,38 @@
+.footer{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer .credits{
+    background-color: #000d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.footer .credits img{
+    height: 120px;
+}
+
+.footer .copyright{
+    background-color: rgb(105, 62, 192);
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 0.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .copyright a{
+    color: white;
+    font-size: 1.1em;
+}
