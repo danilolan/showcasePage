@@ -9,7 +9,7 @@
         links (face, tt, insta, wpp)
 
 #   2 parte
-        descrição (texto 1)
+        img2 descrição (texto 1) img3
 
 #   3 parte
         Video 2 (texto 2)
