@@ -7,7 +7,7 @@ function Item(props) {
     const iClass = props.shop ? 'fa fa-shopping-cart' : ''
     return ( 
         <div className={classes}>
-            <i class={iClass}></i> {props.label}
+            <i className={iClass}></i> {props.label}
         </div>
      );
 }
