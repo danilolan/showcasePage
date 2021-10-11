@@ -1,0 +1,55 @@
+@media only screen and (min-width: 600px) {
+  
+}
+.landing{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../assets/img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+}
+.landing .social{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+    color: white;
+    margin-left: 6vw;
+    margin-top: 0;
+}
+.landing .social img{
+    height: 350px;
+    margin-bottom: -35px;
+}
+.landing .social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(105, 62, 192);
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.4em;
+    padding: 10px;
+    margin: 0px 30px;
+    border-radius: 3px;
+}
+.landing .social a:hover{
+    background: linear-gradient(to right, #6dd5ed, #2193b0);  
+}
+.landing .social .midia{
+    display: flex;
+    margin: 13px 30px;
+    justify-content: center;
+}
+.landing .social .midia a{
+    background: none;
+    margin: 0;
+    padding: 0px 20px;
+    transition: 0.3s;
+}
+.landing .social .midia a:hover{
+    color: rgba(255, 255, 255, 0.555);
+}
