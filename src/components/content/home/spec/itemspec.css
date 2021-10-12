@@ -1,0 +1,33 @@
+
+.itemspec{
+    display: flex;
+    padding: 5%;
+}
+.itemspec.variation{
+    background-color: #0002;
+    flex-direction: row-reverse;
+}
+.itemspec.variation .text{
+    position: absolute;
+    left: 0;
+}
+.itemspec video{
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+                rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+                rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+                rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.itemspec .text{
+    margin-left: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+}
+.itemspec .text .title{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

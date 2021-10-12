@@ -11,10 +11,9 @@ import Home from '../content/home/Home';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="app">
         <Header/>
         <Home/>
-        <div className="test"></div>
         <Footer/>
       </div>
     </BrowserRouter>

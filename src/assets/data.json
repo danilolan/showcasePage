@@ -6,6 +6,15 @@
         "whatsapp": "https://www.whatsapp.com"
     },
     "texts":{
-        "text1": "Somos uma empresa especializada no comércio on-line de relógios. Como especialistas, estamos sempre atualizados com as principais tendências de moda e tecnologia do segmento, e desde nossa inauguração em 2007, disponibilizamos em nosso site as últimas novidades do mercado relojoeiro"
+        "text1": "Somos uma empresa especializada no comércio on-line de relógios. Como especialistas, estamos sempre atualizados com as principais tendências de moda e tecnologia do segmento, e desde nossa inauguração em 2007, disponibilizamos em nosso site as últimas novidades do mercado relojoeiro",
+        "text2":{
+            "title":"Titulo",
+            "content":"Ola amigos"},
+        "text3":{
+            "title":"Titulo",
+            "content":"Ola amigos"},
+        "text4":{
+            "title":"Titulo",
+            "content":"Ola amigos"}
     }
 }
