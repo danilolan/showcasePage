@@ -28,23 +28,27 @@
     align-items: center;
     justify-content: center;
     background: rgb(105, 62, 192);
+    border: 2px solid rgb(105, 62, 192);
     text-decoration: none;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.4em;
     padding: 10px;
     margin: 0px 30px;
-    border-radius: 3px;
+    border-radius: 1px;
+    transition: 0.2s linear ;
 }
 .landing .social a:hover{
-    background: linear-gradient(to right, #6dd5ed, #2193b0);  
+    background-color: rgb(26, 26, 26);
 }
+
 .landing .social .midia{
     display: flex;
     margin: 13px 30px;
     justify-content: center;
 }
 .landing .social .midia a{
+    border: none;
     background: none;
     margin: 0;
     padding: 0px 20px;

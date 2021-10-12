@@ -8,13 +8,13 @@
     "texts":{
         "text1": "Somos uma empresa especializada no comércio on-line de relógios. Como especialistas, estamos sempre atualizados com as principais tendências de moda e tecnologia do segmento, e desde nossa inauguração em 2007, disponibilizamos em nosso site as últimas novidades do mercado relojoeiro",
         "text2":{
-            "title":"Titulo",
-            "content":"Ola amigos"},
+            "title":"Materiais de alta qualidade",
+            "content":"Todos os nossos produtos são fabricados com materiais de altíssima qualidade. O objetivo da marca é levar um estilo clássico para complementar seu visual"},
         "text3":{
-            "title":"Titulo",
-            "content":"Ola amigos"},
+            "title":"Design clássico",
+            "content":"Buscamos um estilo clássico, minimalista e refinado, o design clássico dos relógios tornam-se um item básico, com apelo verdadeiramente amplo por muitos anos."},
         "text4":{
-            "title":"Titulo",
-            "content":"Ola amigos"}
+            "title":"Produtos nacionais e internacionais",
+            "content":"Produtos originais reconhecidos pelo design e qualidade. As melhores marcas nacionais e internacionais com as melhores condições"}
     }
 }

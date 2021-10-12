@@ -8,7 +8,6 @@
     flex-direction: row-reverse;
 }
 .itemspec.variation .text{
-    position: absolute;
     left: 0;
 }
 .itemspec video{
@@ -22,9 +21,12 @@
 
 .itemspec .text{
     margin-left: 5%;
+    margin-right: 5%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 400;
+    height: 100%;
+    justify-content: center;
 }
 .itemspec .text .title{
     font-size: 1.5em;

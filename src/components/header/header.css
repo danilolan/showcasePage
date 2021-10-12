@@ -32,15 +32,15 @@
 .header .itemsContainer .shop{
     font-weight: 900;
     background: rgb(105, 62, 192);
+    border: 2px solid rgb(105, 62, 192);
+    border-bottom: none;
+    transition:0.5s;
     width: 200px;
-    height: 83px;
+    height: 82px;
 }
 
 .header .itemsContainer .shop:hover{
     color: white;
-    background: #2193b0;
-    background: linear-gradient(to right, #6dd5ed, #2193b0); 
-
-
+    background:rgb(26, 26, 26);
 }
 
