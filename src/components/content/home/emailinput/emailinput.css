@@ -1,0 +1,55 @@
+.emailinput{
+    background: rgb(105, 62, 192);
+    display: flex;
+    padding: 50px 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.emailinput input{
+    border: none;
+    background: rgb(152, 123, 209);
+    width: 100%;
+    height: max-content;
+    font-size: 1.2em;  
+    font-weight: 300;
+    padding: 30px;
+    color: white;
+    outline: none;
+    
+}
+.emailinput input::placeholder{
+    color: white;
+}
+
+.emailinput button{
+    width: max-content;
+    padding: 5px 70px;
+    background: rgb(105, 62, 192);
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: 3px solid rgb(152, 123, 209);
+    transition: 0.3s;
+}
+
+.emailinput button:hover{
+    background: rgb(26, 26, 26);
+    cursor: pointer;
+}
+.emailinput button .fa.fa-envelope{
+    position: absolute;
+}
+.emailinput button .fa.fa-envelope-open{
+    position: absolute;
+    opacity: 0;
+}
+.emailinput button:hover .fa.fa-envelope{
+    opacity: 0;
+}
+.emailinput button:hover .fa.fa-envelope-open{
+    opacity: 1;
+}
