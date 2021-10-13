@@ -15,7 +15,7 @@ function Landing(props) {
                 <div className="social">
                     <img src={icon} alt="icon" />
 
-                    <a href='/shop'>
+                    <a href={data.links.shop}>
                         <i className='fa fa-shopping-cart'/> &nbsp; 
                         LOJA 
                     </a>

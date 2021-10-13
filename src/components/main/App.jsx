@@ -6,14 +6,14 @@ import 'font-awesome/css/font-awesome.css'
 
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
-import Home from '../content/home/Home';
+import Routes from './Routes';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="app">
         <Header/>
-        <Home/>
+        <Routes/>
         <Footer/>
       </div>
     </BrowserRouter>

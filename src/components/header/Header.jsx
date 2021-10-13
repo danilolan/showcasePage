@@ -5,6 +5,8 @@ import {Link} from 'react-router-dom'
 import Logo from './Logo';
 import Item from './Item';
 
+import data from '../../assets/data.json'
+
 function Header(props) {
     return ( 
         <div className='header'>
@@ -16,12 +18,12 @@ function Header(props) {
                 <Link to='/faq'>
                     <Item label='FAQ'/>
                 </Link>
-                <Link to='/contact'>
+                <Link to='/contactus'>
                     <Item label='FALE CONOSCO'/>                    
                 </Link>
-                <Link to='/shop' className='shop'>
+                <a href={data.links.shop} className='shop'>
                     <Item label='LOJA' shop= {true}/>  
-                </Link>
+                </a>
             </div>
         </div>
      );
